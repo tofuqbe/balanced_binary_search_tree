@@ -1,5 +1,6 @@
 /* NOTE THIS IS A MODIFIED MERGE-SORT ALGORITHM. IT REMOVES ANY DUPLICATE ELEMENTS DURING THE SORT PROCESS.
 THIS WAS MODIFIED TO EASIER BALANCE A BINARY SEARCH TREE. */
+const generateArray = require("./generateArray");
 
 function mergeSort(array) {
   return split(array);
