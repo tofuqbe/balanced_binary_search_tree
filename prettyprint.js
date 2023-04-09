@@ -1,3 +1,4 @@
+// Borrowed code that prints a visualization of a binary search tree.
 const prettyPrint = (node, prefix = "", isLeft = true) => {
   if (node === null) {
     return;

@@ -7,7 +7,7 @@ const generateArray = (() => {
   };
 
   const over100 = (array = []) => {
-    array.push(Math.floor(Math.random() * 199));
+    array.push(Math.floor(Math.random() * 99 + 101));
     if (array.length < 10) generateArray.over100(array);
     return array;
   };
